@@ -1,0 +1,35 @@
+
+.recent_item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.selected {
+    color: #fff;
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25) inset;
+    background-color: #706C6C; /* Replace with your desired background color */
+}
+.selected .room_title {
+    font-weight: bold;
+}
+.selected .room_description {
+    color: #c2c2c2;
+}
+.selected svg path {
+    fill: #fff;
+}
+.room_title{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.room_description{
+    color: #706C6C;
+}
